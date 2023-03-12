@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weight Converter</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div id="parent">
+        <div id="child">
+            <h1 id="wei">Weight Converter</h1>
+            <input  id="input" type="number" min="0" onchange="inputdata()" placeholder="Enter Pounds..." >
+            <div id="grams" ><h1 class="d" >Grams:</h1><p id="grm" >0</p></div>
+            <div id="kg" > <h1 class="d">Kilograms:</h1><p id="kgm">0</p></div>
+            <div id="oun">
+                <h1 class="d">Ounces:</h1><p id="o">0</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
